@@ -13,4 +13,4 @@ jobs:
         with:
           project: IaC
           column: Inbox
-
+          repo-token: ${{ secrets.GHACTIONTOKEN }}
