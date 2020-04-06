@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.2.2
         with:
-          project: IaC
+          project: 'IaC Examplar'
           column: Inbox
           repo-token: ${{ secrets.GHACTIONTOKEN }}
